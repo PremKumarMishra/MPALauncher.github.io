@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://cdn.discordapp.com/attachments/585073125687951372/756856969511567540/rsz_5untitled.png");
+    margin: 0;
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+html{
+    height: 100%;
+}
+.navbar{
+    background-color: #333333;
+    height: 60px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzsvBdxcoENmxO_AjB_j_sTN0CoP0g2VRmOg&usqp=CAU");
+    border: 3px solid grey;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+
+}
+.navbar ul li{
+    padding: 0px 25px;
+}
+.navbar a:hover{
+    color: yellowgreen;
+}
+
+
+
+
+/* Updates */
+
+.Update{
+    display: flex;
+    /* border: 2px solid red;    */
+    width: 200px;
+    margin: 0px 5px;
+}
+.Header{
+    color: royalblue;
+    margin: 0px 5px;
+    font-family: 'Secular One', sans-serif;
+    text-decoration: underline;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.Header:hover{
+    color: tomato;
+    text-decoration: none;
+    cursor: pointer;
+}
+.image{
+    margin: 20px 900px;
+    display:flex;
+    /* border: 3px solid green; */
+    height: 375px;
+    width: 413px;
+    background-image: url("https://cdn.discordapp.com/attachments/585073125687951372/759014182287835176/Capture.PNG");
+    background-repeat: no-repeat;
+}
+
+.Notes{
+    border: 2px solid thistle;
+    display: flex;
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    margin:20px 5px;
+    height: 450px;
+    flex-direction: column;
+    background-color: #333333;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.Notes h4{
+    color: aqua;
+    font-family: 'Secular One', sans-serif;
+    text-decoration: underline;
+}
+.Notes li{
+    padding: 0px 2px;
+    color: tomato;
+    font-family: 'Secular One', sans-serif;
+    font-size: 13px;
+}
+
+.image #Downup{
+    width: 82px;
+    height: 42px;
+    margin: 340px auto;
+    background-color:wheat;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-family: 'Secular One', sans-serif;
+    transition-property:background-color;
+    transition-duration: 2s;
+}
+.image #Downup a{
+    text-decoration: none;
+    color: black;
+}
+.image #Downup:hover{
+    background-color: coral;
+    border: 3px solid whitesmoke;
+}
+

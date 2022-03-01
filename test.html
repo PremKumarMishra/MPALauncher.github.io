@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #hello{
+            border: 2px solid red;
+            height: 40px;
+            transition-property: height;
+            transition-duration: 2s;
+        }
+    </style>
+</head>
+<body>
+    <div id="hello"></div>
+    <script>
+        var div = document.getElementById("hello")
+        div.addEventListener("click", ()=>{
+            div.style.height = "200px"
+        })
+    </script>
+</body>
+</html>

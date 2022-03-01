@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    background-image: url("https://cdn.discordapp.com/attachments/585073125687951372/756856969511567540/rsz_5untitled.png");
+    margin: 0;
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    height: 100%;
+}
+.navbar{
+    background-color: #333333;
+    height: 60px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzsvBdxcoENmxO_AjB_j_sTN0CoP0g2VRmOg&usqp=CAU");
+    border: 3px solid grey;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 4000;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+
+}
+.navbar ul li{
+    padding: 0px 25px;
+}
+.navbar a:hover{
+    color: yellowgreen;
+}
+
+
+
+/* Map */
+
+.map_screen{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.map_screen h3{
+    margin: 0px 0px;
+    color: royalblue;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition: color;
+    transition-duration: 1s;
+}
+.map_screen h3:hover{
+    color: thistle;
+    text-decoration: underline;
+}
+.map_screen .ml{
+    margin: 10px auto;
+    color: wheat;
+    text-decoration: none;
+    padding: 12px;
+    transition: width background-color border height border-radius;
+    transition: 0.4s;
+}
+.map_screen .ml:hover{
+    width: 200px;
+    background-color: gray;
+    border: 3px solid skyblue;
+    height: 50px;
+    border-radius: 5px;
+}
+.map_screen #Link10{
+    width: 220px ;
+}
+.map_screen .Map_SideShow{
+    border: 3px solid goldenrod;
+    width: 686px;
+    height: 413px;
+    margin: 10px auto;
+    border-radius: 5px;
+    transition: border;
+    transition-duration: 2s;
+    cursor: pointer;
+    animation-name: Map;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    background-size: 686px 413px;
+
+}
+.map_screen .Map_SideShow:hover{
+    border: 3px solid whitesmoke;
+}
+
+@keyframes Map {
+    0%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map1.jpg");}
+    4%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map2.jpg");}
+    8%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map3.jpg");}
+    12%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map4.jpg");}
+    16%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map5.jpg");}
+    20%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map6.jpg");}
+    24%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map7.jpg");}
+    28%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map8.jpg");}
+    32%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map9.jpg");}
+    36%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map10.jpg");}
+    40%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map11.jpg");}
+    44%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map12.jpg");}
+    48%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map13.jpg");}
+    52%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map14.jpg");}
+    56%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map15.jpg");}
+    60%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map16.jpg");}
+    64%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map17.jpg");}
+    68%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map18.jpg");}
+    72%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map19.jpg");}
+    76%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map20.jpg");}
+    80%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map21.JPG");}
+    84%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map22.jpg");}
+    88%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map23.jpg");}
+    92%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map24.jpg");}
+    96%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map25.JPG");}
+    100%{background-image: url("https://teamhpa07.000webhostapp.com/Images/map14.jpg");}      
+}
+.map_screen .Install{
+    color: lavender;
+
+}
+.map_screen .guide{
+    color: lightcoral;
+    text-align: start;
+    margin: 5px 205px;
+}
+.map_screen li a{
+    color: lightyellow;
+}
+.map_screen li a:hover{
+    color: lightskyblue;
+}
+.map_screen li a:visited{
+    color: mediumslateblue;
+}
+
+.map_screen .guide{
+    padding: 5px 240px;
+}
+.map_screen #Link15{
+   width: 230px;
+}

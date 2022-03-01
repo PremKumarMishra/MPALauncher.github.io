@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: max-content;
+    background-attachment: fixed;
+    background-image: url("https://cdn.discordapp.com/attachments/585073125687951372/756856969511567540/rsz_5untitled.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    height: 100%;
+}
+.navbar{
+    background-color: #333333;
+    height: 60px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzsvBdxcoENmxO_AjB_j_sTN0CoP0g2VRmOg&usqp=CAU");
+    border: 3px solid grey;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+
+}
+.navbar ul li{
+    padding: 0px 25px;
+}
+.navbar a:hover{
+    color: yellowgreen;
+}
+.Content_box{
+    display: flex;
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 1600px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.Content_box h3{
+   color: steelblue;
+   font-family: 'Overpass', sans-serif;
+   font-size: 25px;
+   transition-property: color;
+   transition-duration: 1s;
+   cursor: pointer;
+}
+.Content_box #Tag1{
+    margin: 0px;
+}
+.Content_box h3:hover{
+    color: thistle;
+    text-decoration: underline;
+}
+.Content_box #ImageBox{
+    width: 686px;
+    height: 413px;
+    position: absolute;
+    top: 95px;
+    background-image: url("https://scontent.fbbi2-1.fna.fbcdn.net/v/t1.0-9/61651293_467711457366220_5873700486921584640_n.jpg?_nc_cat=110&_nc_sid=825194&_nc_ohc=Kc2fQEFyQ4MAX-HeXKi&_nc_ht=scontent.fbbi2-1.fna&oh=f3b7f4ee424f3d49c2e5fd0ed4873b39&oe=5F940A37");
+    transition: border 2s;
+    cursor: pointer;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+}
+.Content_box #ImageBox:hover{
+    border: 3px solid whitesmoke;
+}
+.Content_box #IGI-2{
+    position: absolute;
+    top: 525px;
+}
+.Content_box #Tag2,#Tags3{
+    width: 312px;
+    margin: 10px auto;
+}
+.Content_box .Para{
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    color: honeydew;
+    font-weight: lighter;
+    padding: 0px 5px;
+}
+em{
+    color:tomato;
+    font-weight: bolder;
+
+}
+.Content_box #Multiplayer{
+    position: absolute;
+    top: 770px; 
+} 
+.Content_box .Image_Multiplayer{
+    border: 2px solid red;
+    position: absolute;
+    top: 854px;
+    width: 686px;
+    height: 413px;
+    border: 3px solid goldenrod;
+    transition: border;
+    transition-duration: 1s;
+    cursor: pointer;
+    border-radius: 5px;
+    animation-name: mp;
+    animation-duration: 12s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}.Content_box .Image_Multiplayer:hover{
+    border: 3px solid whitesmoke;
+}
+@keyframes mp {
+    0%{
+        background-image: url("https://cdn.discordapp.com/attachments/585073125687951372/760106864858890249/rsz_untitled4.jpg");
+        background-size: 686px 413px;
+    }
+    25%{
+        background-size: 686px 413px;
+        background-image: url("https://cdn.discordapp.com/attachments/453060289064206357/730479671023763517/107480666_296058251774019_2747671451108088369_n.jpg");
+    }
+    50%{
+        background-size: 686px 413px;
+        background-image: url("https://cdn.discordapp.com/attachments/453060289064206357/725331256639881296/105652315_1678616025630214_8717006069089185163_n.jpg");
+
+    }
+    75%{
+        background-size: 686px 413px;
+        background-image: url("https://cdn.discordapp.com/attachments/453060289064206357/725331256187027506/105486959_1678616022296881_7370217752617567926_n.jpg");
+
+    }
+    100%{
+        background-size: 686px 413px;
+        background-image: url("https://cdn.discordapp.com/attachments/453060289064206357/730479671589863524/106699583_705614369983667_2242371799311344648_n.jpg");
+    }
+}
+
+.Content_box .Mp_Notes{
+    position: absolute;
+    top: 1301px;
+    text-align: center;
+}
+.Content_box .Mp_Notes #downlauncher{
+    width: 77px;
+    height: 42px;
+    color: white;
+    background-color: wheat;
+    border: 3px solid #333333;
+    transition-property: all;
+    transition-duration: 2s;
+    border-radius: 10px;
+}
+.Content_box .Mp_Notes #downlauncher a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Overpass', sans-serif;
+    
+}
+.Content_box .Mp_Notes #downlauncher:hover{
+    background-color: tomato;
+    border: 3px solid whitesmoke;
+}

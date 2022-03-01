@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="Css/About.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <ul class="ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Map.html">Maps</a></li>
+            <li><a href="HowToPlay.html">How to play IGI-2 Multiplayer</a></li>
+            <li><a href="Updates.html">Updates</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </div>
+    <div class="burger" id ="hamper">
+        <div class="line" id="line-1"></div>
+        <div class="line" id="line-2"></div>
+        <div class="line" id="line-3"></div>
+    </div>
+    <audio src="https://www.youtube.com/watch?v=wl3-dFCKiXA&t=10s" autoplay loop></audio>
+    <div class="main_container">
+        <h2>About Launcher</h2>
+        <p class="about" id="about2">
+            This is a lightweight IGI-2 Multiplayer Launcher.It has one server.
+            Launcher is fully optimized and 24/7 server support. We gave Our best for Launcher development.
+        </p>
+        <span class="developers">
+            Server Owner-Azmat Khan
+        </span>
+        <span class="developers" id ="res-span">
+            Launcher Developers - Premkumar Mishra & Azmat Khan
+        </span>
+        <span class="developers">
+            Server Manager -  Himaloy Mallick
+        </span>
+        <span class="developers">
+            Launcher Designer - Cynergy
+        </span>
+        <h2>About Us</h2>
+        <p class="about" id="about1">
+            HPA was fond on 2017. HPA means Himaloy,Prem and Azmat.Alternative name: Hyper Police Action.Himaloy is the creator of the best friends team.First Himaloy meet Prem on samp then meet Azmat on IGI-2 on 2018.Then 3 of became best friends.Then the team officially created on 2017 november.And this is how HPA became a team.We try our best to save our favourite game IGI-2 Multiplayer.Thanks for visiting  website.Happy Gaming.
+        </p>
+        <div class="Foot">
+            <div class="foot_items" id="foot1">
+                <h4 class="tag">@2020 HPA Team</h4>
+            </div>
+            <div class="foot_items" id="foot2">
+                <h3 class="content">Get Started</h3>
+                <a href="index.html" class="Hlinks">Home</a>
+                <a href="Map.html" class="Hlinks">Maps</a>
+                <a href="HowToPlay.html" class="Hlinks">How To Install IGI-2 Multiplayer</a>
+                <a href="Updates.html" class="Hlinks">Updates</a>
+                <a href="About.html" class="Hlinks">About</a>
+            </div>
+            <div class="foot_items" id="foot3">
+                <h3 class="content" id="con-us">Contact Us</h3>
+                <a class="sociallinks" id="social1" target="_blank" href="https://m.facebook.com/groups/179084102866811"></a>
+                <a class="sociallinks" id="social2" target="_blank" href="https://discord.gg/XnZRTSB"></a>
+                <a class="sociallinks" id="social3" target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlKFQhTrNzRwRnqJxRnCKXwfNdjpWBVVLdCCbTrjrpnFJZnJXVMmLdLTBHnpxlGLlpDdtL"></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        let burger = document.getElementById("hamper");
+        let nav = document.querySelector(".navbar")
+        let nav_ul = document.querySelector(".navbar .ul")
+        nav.style.height = "60px"
+        burger.addEventListener('click', ()=>{
+            if (nav.style.height == "60px"){
+                nav.style.height = "200px"
+                nav_ul.style.display ="flex"
+            }
+            else{
+                nav.style.height = "60px"
+                nav_ul.style.display = "none"
+            }
+        })
+    </script>
+</body>
+</html>

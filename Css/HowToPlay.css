@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    background-image: url("https://cdn.discordapp.com/attachments/585073125687951372/756856969511567540/rsz_5untitled.png");
+    margin: 0;
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    height: 100%;
+}
+.navbar{
+    background-color: #333333;
+    height: 60px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzsvBdxcoENmxO_AjB_j_sTN0CoP0g2VRmOg&usqp=CAU");
+    border: 3px solid grey;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 4000;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+
+}
+.navbar ul li{
+    padding: 0px 25px;
+}
+.navbar a:hover{
+    color: yellowgreen;
+}
+
+
+
+
+/* HowToPlay Section */
+
+
+.main_window{
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.youtube{
+    width: 600px;
+    height: 400px;
+    padding: 12px;
+}
+.main_window h2{
+    cursor: pointer;
+    color: royalblue;
+    margin: auto;
+    transition: all;
+    transition-duration: 1s;
+}
+.main_window h2:hover{
+    color: thistle;
+    text-decoration: underline;
+}
+.main_window .instructions{
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.main_window .instructions #iniheader{
+    color: gainsboro;
+    transition: all;
+    margin: 2px 10px;
+    width: 135px;
+
+}
+.main_window .instructions #iniheader:hover{
+    color: white;
+}
+.main_window .tips{
+    color: #4caf50;
+    margin: 10px 70px;
+}
+.main_window .tips a{
+    color: red;
+}
+.main_window .tips a:hover{
+    color: goldenrod;
+}
